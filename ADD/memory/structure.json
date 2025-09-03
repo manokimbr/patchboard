@@ -1,0 +1,44 @@
+{
+  "scan": {
+    "startedIso": "2025-09-03T19:37:40.022Z",
+    "endedIso": "2025-09-03T19:37:40.028Z",
+    "durationMs": 6
+  },
+  "tree": [
+    {
+      "file": "src/App.vue",
+      "mtimeIso": "2025-09-03T18:36:30.745Z"
+    },
+    {
+      "folder": "src/assets",
+      "children": [
+        {
+          "file": "src/assets/vue.svg",
+          "mtimeIso": "2025-09-03T18:36:30.746Z"
+        }
+      ]
+    },
+    {
+      "folder": "src/components",
+      "children": [
+        {
+          "file": "src/components/HelloWorld.vue",
+          "mtimeIso": "2025-09-03T18:36:30.746Z"
+        }
+      ]
+    },
+    {
+      "file": "src/main.ts",
+      "mtimeIso": "2025-09-03T18:36:30.746Z"
+    },
+    {
+      "file": "src/style.css",
+      "mtimeIso": "2025-09-03T18:36:30.746Z"
+    },
+    {
+      "file": "src/vite-env.d.ts",
+      "mtimeIso": "2025-09-03T18:36:30.746Z"
+    }
+  ],
+  "treeView": "📁 src/\n├── App.vue\n├── assets/\n│   └── vue.svg\n├── components/\n│   └── HelloWorld.vue\n├── main.ts\n├── style.css\n└── vite-env.d.ts"
+}

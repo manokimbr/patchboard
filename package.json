@@ -1,0 +1,28 @@
+{
+  "name": "patchboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --build --verbose",
+    "brain": "tsx --tsconfig tsconfig.add.json ADD/brain.ts",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.7.0",
+    "cypress": "^15.1.0",
+    "tsx": "^4.20.5",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vue-tsc": "^3.0.5"
+  }
+}

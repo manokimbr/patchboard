@@ -1,0 +1,9 @@
+📁 src/
+├── App.vue
+├── assets/
+│   └── vue.svg
+├── components/
+│   └── HelloWorld.vue
+├── main.ts
+├── style.css
+└── vite-env.d.ts

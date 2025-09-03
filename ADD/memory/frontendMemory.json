@@ -1,0 +1,261 @@
+{
+  "summary": {
+    "componentsScanned": 2,
+    "filesScanned": 4,
+    "envVars": [
+      "VITE_APP_NAME"
+    ],
+    "tsconfigs": [
+      {
+        "path": "tsconfig.json"
+      },
+      {
+        "path": "tsconfig.add.json",
+        "strict": true,
+        "skipLibCheck": true,
+        "moduleResolution": "Node",
+        "types": [
+          "node"
+        ]
+      }
+    ],
+    "tsTotals": {
+      "anyCount": 0,
+      "tsIgnoreCount": 0,
+      "tsExpectErrorCount": 0,
+      "nonNullAssertionCount": 0,
+      "asConstCount": 0,
+      "satisfiesCount": 0,
+      "readonlyCount": 0,
+      "enumCount": 0,
+      "interfaceCount": 0,
+      "typeAliasCount": 0,
+      "genericAnglesCount": 0,
+      "unionCount": 0,
+      "intersectionCount": 0
+    },
+    "perfPresence": {
+      "performanceNow": false,
+      "requestIdleCallback": false,
+      "intersectionObserver": false,
+      "consoleTime": false,
+      "dynamicImport": false
+    },
+    "vueSfc": {
+      "scriptSetupTsCount": 0,
+      "definePropsTypedCount": 1,
+      "definePropsRuntimeCount": 0
+    },
+    "vuetify": {
+      "pluginPath": null,
+      "usedTags": [],
+      "pluginDetected": false
+    },
+    "tsHygieneScore": 100,
+    "suggestions": [
+      "Consider dynamic `import()` for code-splitting large routes/components.",
+      "Use `IntersectionObserver` for lazy rendering of lists/images when appropriate.",
+      "Brain file is getting large—consider modularizing scanners into `ADD/scanners/*`."
+    ],
+    "self": {
+      "path": "ADD/brain.ts",
+      "bytes": 17948,
+      "lines": 499,
+      "maxLineLen": 333,
+      "functionLikeCount": 20,
+      "todoCount": 0,
+      "fixmeCount": 0,
+      "tsSignals": {
+        "anyCount": 7,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 4,
+        "asConstCount": 2,
+        "satisfiesCount": 3,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 9,
+        "genericAnglesCount": 4,
+        "unionCount": 7,
+        "intersectionCount": 5
+      }
+    }
+  },
+  "vue": [
+    {
+      "file": "src/App.vue",
+      "templateTags": [
+        "script",
+        "template",
+        "div",
+        "a",
+        "img",
+        "a",
+        "img",
+        "HelloWorld",
+        "style"
+      ],
+      "imports": [
+        "./components/HelloWorld.vue"
+      ],
+      "emits": [],
+      "props": [],
+      "vueScriptSetupTs": false,
+      "definePropsTyped": false,
+      "definePropsRuntime": false
+    },
+    {
+      "file": "src/components/HelloWorld.vue",
+      "templateTags": [
+        "script",
+        "template",
+        "h1",
+        "div",
+        "button",
+        "p",
+        "code",
+        "p",
+        "a",
+        "p",
+        "a",
+        "p",
+        "style"
+      ],
+      "imports": [
+        "vue"
+      ],
+      "emits": [],
+      "props": [],
+      "vueScriptSetupTs": false,
+      "definePropsTyped": true,
+      "definePropsRuntime": false
+    }
+  ],
+  "code": [
+    {
+      "file": "src/App.vue",
+      "imports": [
+        "./components/HelloWorld.vue"
+      ],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/components/HelloWorld.vue",
+      "imports": [
+        "vue"
+      ],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/main.ts",
+      "imports": [
+        "vue",
+        "./App.vue"
+      ],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/vite-env.d.ts",
+      "imports": [],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    }
+  ],
+  "scan": {
+    "startedIso": "2025-09-03T19:37:40.022Z",
+    "endedIso": "2025-09-03T19:37:40.028Z",
+    "durationMs": 6
+  }
+}
