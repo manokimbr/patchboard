@@ -1,6 +1,6 @@
 # 🩹 Patchboard
 
-> Frontend boilerplate aligned with the Automox stack — Vue 3 + Vite + TypeScript + Cypress — with an extra layer of **Awareness-Driven Development (ADD)** to keep the codebase introspective and maintainable.
+> Frontend boilerplate core stack — Vue 3 + Vite + TypeScript + Cypress — with an extra layer of **Awareness-Driven Development (ADD)** to keep the codebase introspective and maintainable.
 
 ---
 
