@@ -3,7 +3,23 @@
 ├── assets/
 │   └── vue.svg
 ├── components/
-│   └── HelloWorld.vue
+│   ├── HelloWorld.vue
+│   └── TransparentNavbar.vue
+├── cypress/
+│   ├── fixtures/
+│   │   └── example.json
+│   └── support/
+│   │   ├── commands.js
+│   │   └── e2e.js
+├── cypress.config.js
 ├── main.ts
+├── plugins/
+│   └── vuetify.ts
 ├── style.css
+├── themes/
+│   ├── dark.ts
+│   ├── index.ts
+│   └── light.ts
+├── types/
+│   └── shims-vuetify-styles.d.ts
 └── vite-env.d.ts

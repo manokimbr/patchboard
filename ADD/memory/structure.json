@@ -1,13 +1,13 @@
 {
   "scan": {
-    "startedIso": "2025-09-03T19:37:40.022Z",
-    "endedIso": "2025-09-03T19:37:40.028Z",
-    "durationMs": 6
+    "startedIso": "2025-10-01T00:08:19.309Z",
+    "endedIso": "2025-10-01T00:08:19.325Z",
+    "durationMs": 16
   },
   "tree": [
     {
       "file": "src/App.vue",
-      "mtimeIso": "2025-09-03T18:36:30.745Z"
+      "mtimeIso": "2025-09-30T23:08:38.262Z"
     },
     {
       "folder": "src/assets",
@@ -24,21 +24,91 @@
         {
           "file": "src/components/HelloWorld.vue",
           "mtimeIso": "2025-09-03T18:36:30.746Z"
+        },
+        {
+          "file": "src/components/TransparentNavbar.vue",
+          "mtimeIso": "2025-09-30T23:09:01.742Z"
         }
       ]
     },
     {
+      "folder": "src/cypress",
+      "children": [
+        {
+          "folder": "src/cypress/fixtures",
+          "children": [
+            {
+              "file": "src/cypress/fixtures/example.json",
+              "mtimeIso": "2025-09-30T22:43:11.560Z"
+            }
+          ]
+        },
+        {
+          "folder": "src/cypress/support",
+          "children": [
+            {
+              "file": "src/cypress/support/commands.js",
+              "mtimeIso": "2025-09-30T22:43:11.561Z"
+            },
+            {
+              "file": "src/cypress/support/e2e.js",
+              "mtimeIso": "2025-09-30T22:43:11.560Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "src/cypress.config.js",
+      "mtimeIso": "2025-09-30T22:43:11.554Z"
+    },
+    {
       "file": "src/main.ts",
-      "mtimeIso": "2025-09-03T18:36:30.746Z"
+      "mtimeIso": "2025-09-30T23:15:24.252Z"
+    },
+    {
+      "folder": "src/plugins",
+      "children": [
+        {
+          "file": "src/plugins/vuetify.ts",
+          "mtimeIso": "2025-09-30T23:55:18.624Z"
+        }
+      ]
     },
     {
       "file": "src/style.css",
       "mtimeIso": "2025-09-03T18:36:30.746Z"
     },
     {
+      "folder": "src/themes",
+      "children": [
+        {
+          "file": "src/themes/dark.ts",
+          "mtimeIso": "2025-09-30T23:43:55.243Z"
+        },
+        {
+          "file": "src/themes/index.ts",
+          "mtimeIso": "2025-09-30T23:44:27.861Z"
+        },
+        {
+          "file": "src/themes/light.ts",
+          "mtimeIso": "2025-09-30T23:09:51.469Z"
+        }
+      ]
+    },
+    {
+      "folder": "src/types",
+      "children": [
+        {
+          "file": "src/types/shims-vuetify-styles.d.ts",
+          "mtimeIso": "2025-09-30T23:20:24.859Z"
+        }
+      ]
+    },
+    {
       "file": "src/vite-env.d.ts",
       "mtimeIso": "2025-09-03T18:36:30.746Z"
     }
   ],
-  "treeView": "📁 src/\n├── App.vue\n├── assets/\n│   └── vue.svg\n├── components/\n│   └── HelloWorld.vue\n├── main.ts\n├── style.css\n└── vite-env.d.ts"
+  "treeView": "📁 src/\n├── App.vue\n├── assets/\n│   └── vue.svg\n├── components/\n│   ├── HelloWorld.vue\n│   └── TransparentNavbar.vue\n├── cypress/\n│   ├── fixtures/\n│   │   └── example.json\n│   └── support/\n│   │   ├── commands.js\n│   │   └── e2e.js\n├── cypress.config.js\n├── main.ts\n├── plugins/\n│   └── vuetify.ts\n├── style.css\n├── themes/\n│   ├── dark.ts\n│   ├── index.ts\n│   └── light.ts\n├── types/\n│   └── shims-vuetify-styles.d.ts\n└── vite-env.d.ts"
 }

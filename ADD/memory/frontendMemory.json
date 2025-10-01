@@ -1,13 +1,38 @@
 {
   "summary": {
-    "componentsScanned": 2,
-    "filesScanned": 4,
+    "componentsScanned": 3,
+    "filesScanned": 13,
     "envVars": [
       "VITE_APP_NAME"
     ],
     "tsconfigs": [
       {
-        "path": "tsconfig.json"
+        "path": "tsconfig.json",
+        "extends": "@vue/tsconfig/tsconfig.json",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedSideEffectImports": true,
+        "skipLibCheck": true,
+        "moduleResolution": "Bundler",
+        "types": [
+          "vite/client"
+        ]
+      },
+      {
+        "path": "tsconfig.app.json",
+        "extends": "@vue/tsconfig/tsconfig.json",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedSideEffectImports": true,
+        "skipLibCheck": true,
+        "moduleResolution": "Bundler",
+        "types": [
+          "vite/client"
+        ]
       },
       {
         "path": "tsconfig.add.json",
@@ -29,10 +54,10 @@
       "readonlyCount": 0,
       "enumCount": 0,
       "interfaceCount": 0,
-      "typeAliasCount": 0,
-      "genericAnglesCount": 0,
+      "typeAliasCount": 1,
+      "genericAnglesCount": 1,
       "unionCount": 0,
-      "intersectionCount": 0
+      "intersectionCount": 1
     },
     "perfPresence": {
       "performanceNow": false,
@@ -43,13 +68,13 @@
     },
     "vueSfc": {
       "scriptSetupTsCount": 0,
-      "definePropsTypedCount": 1,
+      "definePropsTypedCount": 2,
       "definePropsRuntimeCount": 0
     },
     "vuetify": {
-      "pluginPath": null,
+      "pluginPath": "/home/nanashi/AUTOMOX/patchboard/src/plugins/vuetify.ts",
       "usedTags": [],
-      "pluginDetected": false
+      "pluginDetected": true
     },
     "tsHygieneScore": 100,
     "suggestions": [
@@ -88,15 +113,24 @@
       "templateTags": [
         "script",
         "template",
-        "div",
+        "v-app",
+        "TransparentNavbar",
+        "template",
         "a",
         "img",
         "a",
         "img",
+        "template",
+        "template",
+        "v-btn",
+        "v-btn",
+        "v-main",
+        "v-container",
         "HelloWorld",
         "style"
       ],
       "imports": [
+        "./components/TransparentNavbar.vue",
         "./components/HelloWorld.vue"
       ],
       "emits": [],
@@ -130,12 +164,36 @@
       "vueScriptSetupTs": false,
       "definePropsTyped": true,
       "definePropsRuntime": false
+    },
+    {
+      "file": "src/components/TransparentNavbar.vue",
+      "templateTags": [
+        "script",
+        "Props",
+        "template",
+        "v-app-bar",
+        "template",
+        "slot",
+        "template",
+        "slot",
+        "span",
+        "template",
+        "slot",
+        "style"
+      ],
+      "imports": [],
+      "emits": [],
+      "props": [],
+      "vueScriptSetupTs": false,
+      "definePropsTyped": true,
+      "definePropsRuntime": false
     }
   ],
   "code": [
     {
       "file": "src/App.vue",
       "imports": [
+        "./components/TransparentNavbar.vue",
         "./components/HelloWorld.vue"
       ],
       "exportCount": 0,
@@ -194,11 +252,273 @@
       }
     },
     {
+      "file": "src/components/TransparentNavbar.vue",
+      "imports": [],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 1,
+        "genericAnglesCount": 1,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/cypress/support/commands.js",
+      "imports": [],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/cypress/support/e2e.js",
+      "imports": [],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/cypress.config.js",
+      "imports": [],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
       "file": "src/main.ts",
       "imports": [
         "vue",
-        "./App.vue"
+        "./App.vue",
+        "./plugins/vuetify.ts"
       ],
+      "exportCount": 0,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 1
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/plugins/vuetify.ts",
+      "imports": [
+        "vuetify",
+        "vuetify/iconsets/mdi",
+        "../themes",
+        "vuetify/directives"
+      ],
+      "exportCount": 1,
+      "vuetifyCreate": true,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/themes/dark.ts",
+      "imports": [],
+      "exportCount": 1,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/themes/index.ts",
+      "imports": [
+        "vuetify",
+        "./light",
+        "./dark"
+      ],
+      "exportCount": 1,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/themes/light.ts",
+      "imports": [],
+      "exportCount": 1,
+      "vuetifyCreate": false,
+      "tsSignals": {
+        "anyCount": 0,
+        "tsIgnoreCount": 0,
+        "tsExpectErrorCount": 0,
+        "nonNullAssertionCount": 0,
+        "asConstCount": 0,
+        "satisfiesCount": 0,
+        "readonlyCount": 0,
+        "enumCount": 0,
+        "interfaceCount": 0,
+        "typeAliasCount": 0,
+        "genericAnglesCount": 0,
+        "unionCount": 0,
+        "intersectionCount": 0
+      },
+      "perfSignals": {
+        "performanceNow": false,
+        "requestIdleCallback": false,
+        "intersectionObserver": false,
+        "consoleTime": false,
+        "dynamicImport": false
+      }
+    },
+    {
+      "file": "src/types/shims-vuetify-styles.d.ts",
+      "imports": [],
       "exportCount": 0,
       "vuetifyCreate": false,
       "tsSignals": {
@@ -254,8 +574,8 @@
     }
   ],
   "scan": {
-    "startedIso": "2025-09-03T19:37:40.022Z",
-    "endedIso": "2025-09-03T19:37:40.028Z",
-    "durationMs": 6
+    "startedIso": "2025-10-01T00:08:19.309Z",
+    "endedIso": "2025-10-01T00:08:19.325Z",
+    "durationMs": 16
   }
 }
